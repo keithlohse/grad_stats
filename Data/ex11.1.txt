@@ -1,0 +1,7 @@
+group instructions   score1 score2 score3
+ 1    competition      8      9      7
+ 2    competition      6      7      6
+ 3    competition      7      8      8
+ 4    none             6      6      5
+ 5    none             7      6      7
+ 6    none             5      5      4

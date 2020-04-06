@@ -1,0 +1,6 @@
+Subject abstract1 concrete1 abstract2 concrete2 abstract3 concrete3
+1    10     13    12    14    16   17
+2     8     12     9    12    11   13 
+3    12     13    14    14    16   16
+4    15     17    16    17    19   20
+5    12     13    15    16    16   17
