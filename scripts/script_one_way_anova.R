@@ -65,7 +65,7 @@ ggplot(data=DAT_MEAN, aes(x=Group, y = MEAN)) +
 
 
 
-# Example 1: Single Factor with Two Levels ---
+# Example 1: Single Factor with Three Levels ---
 DAT2 <- read.csv("https://raw.githubusercontent.com/keithlohse/grad_stats/main/data/data_800m.csv",
                  stringsAsFactors = TRUE)
 

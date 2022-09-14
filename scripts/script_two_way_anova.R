@@ -8,13 +8,10 @@ library(tidyverse); library(RCurl); library(car); library(ez)
 DATA <- read.csv("https://raw.githubusercontent.com/keithlohse/grad_stats/main/data/data_THERAPY.csv",
                  stringsAsFactors = TRUE)
 
-head(DATA)
+DATA
 
 DATA<-rownames_to_column(DATA, var = "subID")
 head(DATA)
-
-plot(Mood~Drug, data=DATA)
-plot(Mood~Psychotherapy, data=DATA)
 
 # Using lm () ----
 mod01<-lm(Mood~Drug*Psychotherapy, data=DATA)
@@ -68,7 +65,7 @@ ggplot(data=DATA, aes(x=Drug, y = Mood)) +
         panel.grid.minor = element_blank(),
         strip.text = element_text(size=12, face="bold"),
         legend.title=element_blank(),
-        legend.position = "none")
+        legend.position = "bottom")
 
 
 
