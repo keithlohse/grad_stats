@@ -73,7 +73,12 @@ Video lectures are all available on YouTube (linked below). Note that Sections 1
 * 11h. Violations of Normality and Homoscedasticity (https://www.youtube.com/watch?v=SICenfxKJy4)
 
 ## Section 12: How-To Videos Using R
-* ...
+* 12a. How to do a one-sample t-test in R (https://www.youtube.com/watch?v=ZdgNOWY3cs4)
+* 12b. How to do a two-sample t-test in R (https://www.youtube.com/watch?v=5oVKpyO84OI)
+* 12c. How to do a one-way ANOVA in R (https://www.youtube.com/watch?v=KpRJzxvEdGs)
+* 12d. How to do a multi-way ANOVA in R (https://www.youtube.com/watch?v=KpRJzxvEdGs)
+
+
 
 
 
